@@ -1,5 +1,5 @@
 mes.onchange = () => {
-    switch(mes.valeu.toLowerCaser()){
+    switch(mes.value.toLowerCase()){
         case "janeiro":
             nome.innerHTML = "Rei"
             break;
